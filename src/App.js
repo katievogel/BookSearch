@@ -1,23 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <ul className="nav justify-content-start">
+        <li className="nav-item">
+          <a className="nav-link" href="/">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/">Search</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/">Saved Books</a>
+        </li>
+      </ul>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Boogle</h1>
+        <h3>A Google Books Search App</h3>
       </header>
     </div>
   );
