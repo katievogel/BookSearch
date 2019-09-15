@@ -1,5 +1,7 @@
 const axios = require("axios");
 const router = require("express").Router();
+const mongoose = require("mongoose");
+var db = require("../models");
 
 router.get("/api/books", (req, res) => {
   axios
