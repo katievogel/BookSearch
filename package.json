@@ -1,8 +1,10 @@
 {
+  "proxy": "http://localhost:3001",
   "name": "book_search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
